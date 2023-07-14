@@ -3,10 +3,13 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
+    /* background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover; */
 }
 
 #submit{
     font-size: 40px !important;
 }
+
 

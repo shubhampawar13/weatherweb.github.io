@@ -10,7 +10,7 @@ const fetchData6 = (city) => {
     };
 
     try {
-        fetch(url, options).then(response => response.json())
+        fetch(url, options).then((response) =>{ return response.json()})
             .then((result) => {
                 console.log(result);
                 cloud_pct5.innerHTML = result.cloud_pct
